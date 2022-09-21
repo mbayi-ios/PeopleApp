@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		898CB5D528DB569200DD6582 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D428DB569200DD6582 /* PeopleViewModel.swift */; };
 		89C35EFC28DA26FF002D3805 /* PeopleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35EFB28DA26FF002D3805 /* PeopleApp.swift */; };
 		89C35F0028DA2701002D3805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C35EFF28DA2701002D3805 /* Assets.xcassets */; };
 		89C35F0328DA2701002D3805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C35F0228DA2701002D3805 /* Preview Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		898CB5D428DB569200DD6582 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		89C35EF828DA26FF002D3805 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C35EFB28DA26FF002D3805 /* PeopleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleApp.swift; sourceTree = "<group>"; };
 		89C35EFF28DA2701002D3805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 		89C35F1628DA3077002D3805 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				898CB5D428DB569200DD6582 /* PeopleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				89C35F3B28DB3DD9002D3805 /* NetworkingManager.swift in Sources */,
 				89C35F2728DA5479002D3805 /* UsersResponse.swift in Sources */,
 				89C35F3128DB0D34002D3805 /* PersonItemView.swift in Sources */,
+				898CB5D528DB569200DD6582 /* PeopleViewModel.swift in Sources */,
 				89C35F3828DB3697002D3805 /* CreateView.swift in Sources */,
 				89C35F2A28DA54F5002D3805 /* Models.swift in Sources */,
 			);
