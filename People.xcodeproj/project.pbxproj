@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		89C35EFC28DA26FF002D3805 /* PeopleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35EFB28DA26FF002D3805 /* PeopleApp.swift */; };
-		89C35EFE28DA26FF002D3805 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35EFD28DA26FF002D3805 /* ContentView.swift */; };
 		89C35F0028DA2701002D3805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C35EFF28DA2701002D3805 /* Assets.xcassets */; };
 		89C35F0328DA2701002D3805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C35F0228DA2701002D3805 /* Preview Assets.xcassets */; };
 		89C35F0B28DA2774002D3805 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F0A28DA2774002D3805 /* Symbols.swift */; };
@@ -19,12 +18,12 @@
 		89C35F2728DA5479002D3805 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2628DA5479002D3805 /* UsersResponse.swift */; };
 		89C35F2A28DA54F5002D3805 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2928DA54F5002D3805 /* Models.swift */; };
 		89C35F2D28DA55B3002D3805 /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2C28DA55B3002D3805 /* StaticJSONMapper.swift */; };
+		89C35F2F28DB0429002D3805 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2E28DB0428002D3805 /* PeopleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		89C35EF828DA26FF002D3805 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C35EFB28DA26FF002D3805 /* PeopleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleApp.swift; sourceTree = "<group>"; };
-		89C35EFD28DA26FF002D3805 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89C35EFF28DA2701002D3805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C35F0228DA2701002D3805 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89C35F0A28DA2774002D3805 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		89C35F2628DA5479002D3805 /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
 		89C35F2928DA54F5002D3805 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		89C35F2C28DA55B3002D3805 /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
+		89C35F2E28DB0428002D3805 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,6 @@
 				89C35F0E28DA3041002D3805 /* Base */,
 				89C35F0928DA2718002D3805 /* Resources */,
 				89C35EFB28DA26FF002D3805 /* PeopleApp.swift */,
-				89C35EFD28DA26FF002D3805 /* ContentView.swift */,
 				89C35EFF28DA2701002D3805 /* Assets.xcassets */,
 				89C35F0128DA2701002D3805 /* Preview Content */,
 			);
@@ -159,6 +158,7 @@
 		89C35F1428DA306B002D3805 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				89C35F2E28DB0428002D3805 /* PeopleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -327,8 +327,8 @@
 			files = (
 				89C35F2D28DA55B3002D3805 /* StaticJSONMapper.swift in Sources */,
 				89C35F0B28DA2774002D3805 /* Symbols.swift in Sources */,
+				89C35F2F28DB0429002D3805 /* PeopleView.swift in Sources */,
 				89C35F0D28DA295C002D3805 /* Theme.swift in Sources */,
-				89C35EFE28DA26FF002D3805 /* ContentView.swift in Sources */,
 				89C35F2528DA542E002D3805 /* UserDetailResponse.swift in Sources */,
 				89C35EFC28DA26FF002D3805 /* PeopleApp.swift in Sources */,
 				89C35F2728DA5479002D3805 /* UsersResponse.swift in Sources */,
