@@ -38,7 +38,7 @@ struct PeopleView: View {
                 }
             }
             .onAppear {
-                NetworkingManager.shared.request("https://reqre.in/api/users", type: UsersResponse.self) { res in
+                NetworkingManager.shared.request("https://reqres.in/api/users", type: UsersResponse.self) { res in
                     switch res {
                     case .success(let response):
                         users = response.data
