@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		898CB5D528DB569200DD6582 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D428DB569200DD6582 /* PeopleViewModel.swift */; };
 		898CB5D728DB5AA300DD6582 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D628DB5AA300DD6582 /* DetailViewModel.swift */; };
+		898CB5D928DB7C1800DD6582 /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D828DB7C1800DD6582 /* NewPerson.swift */; };
+		898CB5DB28DB7C8600DD6582 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5DA28DB7C8600DD6582 /* CreateViewModel.swift */; };
 		89C35EFC28DA26FF002D3805 /* PeopleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35EFB28DA26FF002D3805 /* PeopleApp.swift */; };
 		89C35F0028DA2701002D3805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C35EFF28DA2701002D3805 /* Assets.xcassets */; };
 		89C35F0328DA2701002D3805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C35F0228DA2701002D3805 /* Preview Assets.xcassets */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		898CB5D428DB569200DD6582 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		898CB5D628DB5AA300DD6582 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		898CB5D828DB7C1800DD6582 /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
+		898CB5DA28DB7C8600DD6582 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		89C35EF828DA26FF002D3805 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C35EFB28DA26FF002D3805 /* PeopleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleApp.swift; sourceTree = "<group>"; };
 		89C35EFF28DA2701002D3805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 		89C35F1C28DA30FD002D3805 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				898CB5DA28DB7C8600DD6582 /* CreateViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 		89C35F1D28DA3103002D3805 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				898CB5D828DB7C1800DD6582 /* NewPerson.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -365,6 +371,7 @@
 				89C35F2D28DA55B3002D3805 /* StaticJSONMapper.swift in Sources */,
 				89C35F3428DB0E57002D3805 /* PillView.swift in Sources */,
 				89C35F0B28DA2774002D3805 /* Symbols.swift in Sources */,
+				898CB5DB28DB7C8600DD6582 /* CreateViewModel.swift in Sources */,
 				89C35F2F28DB0429002D3805 /* PeopleView.swift in Sources */,
 				89C35F0D28DA295C002D3805 /* Theme.swift in Sources */,
 				89C35F3628DB1ACD002D3805 /* DetailView.swift in Sources */,
@@ -373,6 +380,7 @@
 				89C35F3B28DB3DD9002D3805 /* NetworkingManager.swift in Sources */,
 				89C35F2728DA5479002D3805 /* UsersResponse.swift in Sources */,
 				89C35F3128DB0D34002D3805 /* PersonItemView.swift in Sources */,
+				898CB5D928DB7C1800DD6582 /* NewPerson.swift in Sources */,
 				898CB5D528DB569200DD6582 /* PeopleViewModel.swift in Sources */,
 				89C35F3828DB3697002D3805 /* CreateView.swift in Sources */,
 				898CB5D728DB5AA300DD6582 /* DetailViewModel.swift in Sources */,
