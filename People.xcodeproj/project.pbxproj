@@ -21,6 +21,7 @@
 		89C35F2F28DB0429002D3805 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2E28DB0428002D3805 /* PeopleView.swift */; };
 		89C35F3128DB0D34002D3805 /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F3028DB0D34002D3805 /* PersonItemView.swift */; };
 		89C35F3428DB0E57002D3805 /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F3328DB0E57002D3805 /* PillView.swift */; };
+		89C35F3628DB1ACD002D3805 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F3528DB1ACD002D3805 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		89C35F2E28DB0428002D3805 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		89C35F3028DB0D34002D3805 /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
 		89C35F3328DB0E57002D3805 /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
+		89C35F3528DB1ACD002D3805 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		89C35F1828DA30DB002D3805 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				89C35F3528DB1ACD002D3805 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				89C35F0B28DA2774002D3805 /* Symbols.swift in Sources */,
 				89C35F2F28DB0429002D3805 /* PeopleView.swift in Sources */,
 				89C35F0D28DA295C002D3805 /* Theme.swift in Sources */,
+				89C35F3628DB1ACD002D3805 /* DetailView.swift in Sources */,
 				89C35F2528DA542E002D3805 /* UserDetailResponse.swift in Sources */,
 				89C35EFC28DA26FF002D3805 /* PeopleApp.swift in Sources */,
 				89C35F2728DA5479002D3805 /* UsersResponse.swift in Sources */,
