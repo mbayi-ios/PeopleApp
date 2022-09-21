@@ -19,6 +19,8 @@
 		89C35F2A28DA54F5002D3805 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2928DA54F5002D3805 /* Models.swift */; };
 		89C35F2D28DA55B3002D3805 /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2C28DA55B3002D3805 /* StaticJSONMapper.swift */; };
 		89C35F2F28DB0429002D3805 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F2E28DB0428002D3805 /* PeopleView.swift */; };
+		89C35F3128DB0D34002D3805 /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F3028DB0D34002D3805 /* PersonItemView.swift */; };
+		89C35F3428DB0E57002D3805 /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F3328DB0E57002D3805 /* PillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		89C35F2928DA54F5002D3805 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		89C35F2C28DA55B3002D3805 /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
 		89C35F2E28DB0428002D3805 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		89C35F3028DB0D34002D3805 /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
+		89C35F3328DB0E57002D3805 /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		89C35F0E28DA3041002D3805 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				89C35F3228DB0E44002D3805 /* Views */,
 				89C35F2B28DA55A2002D3805 /* Mapper */,
 				89C35F2828DA54E8002D3805 /* Models */,
 			);
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				89C35F2E28DB0428002D3805 /* PeopleView.swift */,
+				89C35F3028DB0D34002D3805 /* PersonItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,6 +259,14 @@
 			path = Mapper;
 			sourceTree = "<group>";
 		};
+		89C35F3228DB0E44002D3805 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89C35F3328DB0E57002D3805 /* PillView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,12 +340,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C35F2D28DA55B3002D3805 /* StaticJSONMapper.swift in Sources */,
+				89C35F3428DB0E57002D3805 /* PillView.swift in Sources */,
 				89C35F0B28DA2774002D3805 /* Symbols.swift in Sources */,
 				89C35F2F28DB0429002D3805 /* PeopleView.swift in Sources */,
 				89C35F0D28DA295C002D3805 /* Theme.swift in Sources */,
 				89C35F2528DA542E002D3805 /* UserDetailResponse.swift in Sources */,
 				89C35EFC28DA26FF002D3805 /* PeopleApp.swift in Sources */,
 				89C35F2728DA5479002D3805 /* UsersResponse.swift in Sources */,
+				89C35F3128DB0D34002D3805 /* PersonItemView.swift in Sources */,
 				89C35F2A28DA54F5002D3805 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
