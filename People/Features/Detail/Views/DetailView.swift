@@ -16,18 +16,22 @@ struct DetailView: View {
         ZStack {
             background
 
-            ScrollView {
-                VStack(alignment: .leading, spacing: 18){
-                    avatar
-                    Group {
-                        general
-                        link
+            if vm.isLoading {
+                ProgressView()
+            } else {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 18){
+                        avatar
+                        Group {
+                            general
+                            link
+                        }
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 18)
+                        .background(Theme.detailBackground, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                     }
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 18)
-                    .background(Theme.detailBackground, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    .padding()
                 }
-                .padding()
             }
         }
         .navigationTitle("Details")
@@ -123,7 +127,6 @@ private extension DetailView {
         Text(vm.userInfo?.data.firstName ?? "-")
             .font(.system(.subheadline, design: .rounded))
         Divider()
-
     }
 
     @ViewBuilder
