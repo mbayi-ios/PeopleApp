@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8960F4C928DC48E6004205F1 /* CreateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F4C828DC48E6004205F1 /* CreateValidator.swift */; };
 		898CB5D528DB569200DD6582 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D428DB569200DD6582 /* PeopleViewModel.swift */; };
 		898CB5D728DB5AA300DD6582 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D628DB5AA300DD6582 /* DetailViewModel.swift */; };
 		898CB5D928DB7C1800DD6582 /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D828DB7C1800DD6582 /* NewPerson.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8960F4C828DC48E6004205F1 /* CreateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateValidator.swift; sourceTree = "<group>"; };
 		898CB5D428DB569200DD6582 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		898CB5D628DB5AA300DD6582 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		898CB5D828DB7C1800DD6582 /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8960F4C728DC48D3004205F1 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				8960F4C828DC48E6004205F1 /* CreateValidator.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
 		89C35EEF28DA26FF002D3805 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +162,7 @@
 		89C35F1128DA3054002D3805 /* Create */ = {
 			isa = PBXGroup;
 			children = (
+				8960F4C728DC48D3004205F1 /* Validator */,
 				89C35F1D28DA3103002D3805 /* Models */,
 				89C35F1C28DA30FD002D3805 /* ViewModels */,
 				89C35F1B28DA30F8002D3805 /* Views */,
@@ -387,6 +398,7 @@
 				898CB5D928DB7C1800DD6582 /* NewPerson.swift in Sources */,
 				898CB5D528DB569200DD6582 /* PeopleViewModel.swift in Sources */,
 				89C35F3828DB3697002D3805 /* CreateView.swift in Sources */,
+				8960F4C928DC48E6004205F1 /* CreateValidator.swift in Sources */,
 				898CB5D728DB5AA300DD6582 /* DetailViewModel.swift in Sources */,
 				89C35F2A28DA54F5002D3805 /* Models.swift in Sources */,
 			);
