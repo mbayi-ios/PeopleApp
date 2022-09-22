@@ -12,6 +12,8 @@
 		8960F4CE28DC56BE004205F1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F4CD28DC56BE004205F1 /* SettingsView.swift */; };
 		8960F4D128DC57D7004205F1 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F4D028DC57D7004205F1 /* UserDefaultKeys.swift */; };
 		8960F4D328DC5AF6004205F1 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F4D228DC5AF6004205F1 /* Endpoints.swift */; };
+		8960F4DB28DC97F2004205F1 /* PeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F4DA28DC97F2004205F1 /* PeopleTests.swift */; };
+		8960F4E328DC982D004205F1 /* JSONMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F4E228DC982D004205F1 /* JSONMapperTests.swift */; };
 		898CB5D528DB569200DD6582 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D428DB569200DD6582 /* PeopleViewModel.swift */; };
 		898CB5D728DB5AA300DD6582 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D628DB5AA300DD6582 /* DetailViewModel.swift */; };
 		898CB5D928DB7C1800DD6582 /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CB5D828DB7C1800DD6582 /* NewPerson.swift */; };
@@ -36,12 +38,25 @@
 		89C35F3B28DB3DD9002D3805 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C35F3A28DB3DD8002D3805 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8960F4DC28DC97F2004205F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C35EF028DA26FF002D3805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C35EF728DA26FF002D3805;
+			remoteInfo = People;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		8960F4C828DC48E6004205F1 /* CreateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateValidator.swift; sourceTree = "<group>"; };
 		8960F4CB28DC552D004205F1 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		8960F4CD28DC56BE004205F1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8960F4D028DC57D7004205F1 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 		8960F4D228DC5AF6004205F1 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		8960F4D828DC97F2004205F1 /* PeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8960F4DA28DC97F2004205F1 /* PeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTests.swift; sourceTree = "<group>"; };
+		8960F4E228DC982D004205F1 /* JSONMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapperTests.swift; sourceTree = "<group>"; };
 		898CB5D428DB569200DD6582 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		898CB5D628DB5AA300DD6582 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		898CB5D828DB7C1800DD6582 /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
@@ -69,6 +84,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8960F4D528DC97F2004205F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C35EF528DA26FF002D3805 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,10 +125,28 @@
 			path = UserDefaults;
 			sourceTree = "<group>";
 		};
+		8960F4D928DC97F2004205F1 /* PeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8960F4E128DC981A004205F1 /* Mapper */,
+				8960F4DA28DC97F2004205F1 /* PeopleTests.swift */,
+			);
+			path = PeopleTests;
+			sourceTree = "<group>";
+		};
+		8960F4E128DC981A004205F1 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				8960F4E228DC982D004205F1 /* JSONMapperTests.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
 		89C35EEF28DA26FF002D3805 = {
 			isa = PBXGroup;
 			children = (
 				89C35EFA28DA26FF002D3805 /* People */,
+				8960F4D928DC97F2004205F1 /* PeopleTests */,
 				89C35EF928DA26FF002D3805 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				89C35EF828DA26FF002D3805 /* People.app */,
+				8960F4D828DC97F2004205F1 /* PeopleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,6 +382,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8960F4D728DC97F2004205F1 /* PeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8960F4DE28DC97F2004205F1 /* Build configuration list for PBXNativeTarget "PeopleTests" */;
+			buildPhases = (
+				8960F4D428DC97F2004205F1 /* Sources */,
+				8960F4D528DC97F2004205F1 /* Frameworks */,
+				8960F4D628DC97F2004205F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8960F4DD28DC97F2004205F1 /* PBXTargetDependency */,
+			);
+			name = PeopleTests;
+			productName = PeopleTests;
+			productReference = 8960F4D828DC97F2004205F1 /* PeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		89C35EF728DA26FF002D3805 /* People */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89C35F0628DA2701002D3805 /* Build configuration list for PBXNativeTarget "People" */;
@@ -368,6 +427,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					8960F4D728DC97F2004205F1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 89C35EF728DA26FF002D3805;
+					};
 					89C35EF728DA26FF002D3805 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -387,11 +450,19 @@
 			projectRoot = "";
 			targets = (
 				89C35EF728DA26FF002D3805 /* People */,
+				8960F4D728DC97F2004205F1 /* PeopleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8960F4D628DC97F2004205F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C35EF628DA26FF002D3805 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,6 +477,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8960F4D428DC97F2004205F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8960F4E328DC982D004205F1 /* JSONMapperTests.swift in Sources */,
+				8960F4DB28DC97F2004205F1 /* PeopleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C35EF428DA26FF002D3805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,7 +518,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8960F4DD28DC97F2004205F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C35EF728DA26FF002D3805 /* People */;
+			targetProxy = 8960F4DC28DC97F2004205F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8960F4DF28DC97F2004205F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mbayi.PeopleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People.app/People";
+			};
+			name = Debug;
+		};
+		8960F4E028DC97F2004205F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mbayi.PeopleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People.app/People";
+			};
+			name = Release;
+		};
 		89C35F0428DA2701002D3805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -614,6 +736,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8960F4DE28DC97F2004205F1 /* Build configuration list for PBXNativeTarget "PeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8960F4DF28DC97F2004205F1 /* Debug */,
+				8960F4E028DC97F2004205F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		89C35EF328DA26FF002D3805 /* Build configuration list for PBXProject "People" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
