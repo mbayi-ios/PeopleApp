@@ -18,9 +18,9 @@ struct CreateView: View {
         NavigationView {
             Form {
                 Section {
-                firstName
-                lastName
-                job
+                    firstName
+                    lastName
+                    job
                 } footer:  {
                     if case .validation(let err) = vm.error,
                        let errorDesc = err.errorDescription {
@@ -91,7 +91,9 @@ private extension CreateView {
     var submit: some View {
         Button("Submit") {
             focusedField = nil
-            vm.create()
+            Task {
+                await vm.create()
+            }
         }
     }
 }
