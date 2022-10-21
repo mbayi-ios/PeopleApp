@@ -1,12 +1,5 @@
 ## PeopleApp
-![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 09 40 04]()
-![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 09 39 59]()
-|||![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 09 39 48]()
-![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 09 39 39]()
-
-![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 09 39 30]()
-
-
+ - using MVVM Architecture SwiftUI
 
 | screenshots | screenshots |
 | ------- | -------- |
