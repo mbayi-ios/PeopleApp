@@ -7,7 +7,8 @@
 ![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 09 39 30](https://user-images.githubusercontent.com/91916741/197129823-32eefe0e-9ca7-4388-bc5b-7c52efd10a0b.png)
 
 
-| ------- | -------- |
+
 | screenshots | screenshots |
+| ------- | -------- |
 | <img src="" width="50%" /> | <img src="" width="50%" /> |
 | <img src="" width="50%" /> | <img src="" width="50%" /> |
